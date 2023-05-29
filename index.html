@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="cabezera">
+        <header>
+            <p></p>
+            <h2>Encriptador de texto</h2> 
+         </header>
+    </div>
+    
+    <div class="container">
+
+        <div class="enc-btn">
+            <section>
+                <label for="texto">Ingresa mensaje a encriptar o desencriptar</label>
+                <textarea id="texto" placeholder="Ingresa texto" required></textarea>
+            </section>
+                <div class="jk">
+                    <div class="jk1">
+                        <button class="button1" onclick="Encriptar()">Encriptar</button>
+                    </div>
+                    <div class="jk2">
+                        <button class="button2" onclick="Desencriptar()">Desencriptar</button>
+                    </div>
+                </div>
+            
+                    
+            
+        </div>
+        <br>
+        <div class="contenido">
+            <h2>Mostrar contenido</h2>
+            <p><button id="copiar" onclick="Copy()">Copiar texto</button> </p>
+            <textarea id="contenido" readonly="readonly" placeholder="NO HAY NADA POR DESCIFRAR"></textarea>
+        </div>
+       
+    </div>
+    <footer>
+        <div>
+            <legend>Desarrollado por</legend>
+            <p class="me">David Figueroa Jasso</p>
+            <p style="text-align: left; padding-top: 50px;">ORACLE + ALURA LATAM</p>
+       </div>
+       <div>
+        <ol>
+            <legend>REDES SOCIALES</legend>
+            <li>
+                <a href="twitter.com"><img src="imgs/icons8-twitter-48.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="imgs/icons8-linkedin-48.png"></a>
+            </li>
+        </ol>        
+
+            
+       </div>
+       
+   </footer> 
+
+    
+</body>
+</html>
